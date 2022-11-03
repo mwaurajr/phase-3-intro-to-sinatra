@@ -33,12 +33,12 @@ class App < Sinatra::Base
     { result: sum }.to_json
   end
 
-  get '/add/90/2' do
-    {"num1"=>"90", "num2"=>"2"}
+  get '/add/1/2' do
+    {"num1"=>"1", "num2"=>"2"}
   end
 
-  get '/add/4/5' do
-    {"num1"=>"4", "num2"=>"5"}
+  get '/add/2/5' do
+    {"num1"=>"2", "num2"=>"5"}
   end
 
   get '/games/:id' do
